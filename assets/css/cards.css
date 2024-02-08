@@ -1,0 +1,115 @@
+.cards{
+    padding: 5rem 2rem; 
+}
+
+.cards__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 4rem;
+
+}
+
+.cards__item{
+    display: flex;
+    flex-direction: column;
+    width: calc(16% - 4rem);
+    text-align: center;
+    align-items: center;
+    background-color: rgba(249, 249, 249, 0.8);
+    padding: 2rem 1rem;
+    gap: 10px;
+    border-radius: 24px;
+}
+
+.cards__titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.cards__texto{
+    font-size: 1.25rem;
+}
+
+.cards__imagem{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+
+
+.cards__imagem--esportes{
+    background: url('../img/cards/esporte.png') no-repeat center / cover ;
+}
+.cards__imagem--agua{
+    background: url('../img/cards/agua.png') no-repeat center / cover ;
+}
+.cards__imagem--academia{
+    background: url('../img/cards/academia.png') no-repeat center / cover ;
+}
+.cards__imagem--lazer{
+    background: url('../img/cards/lazer.png') no-repeat center / cover ;
+}
+.cards__imagem--frutas{
+    background: url('../img/cards/frutas.png') no-repeat center / cover ;
+}
+.cards__imagem--alimentacao{
+    background: url('../img/cards/alimentos.png') no-repeat center / cover ;
+}
+
+
+@media screen and (max-width: 720px) {
+    .cards{
+        padding: 4rem 2rem; 
+    }
+    .cards__lista{
+        row-gap: 2.5rem;
+    }
+    .cards__item{
+        width: calc(45% - 4rem);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .cards{
+        padding: 5rem 2rem; 
+    }
+    
+    .cards__lista{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 4rem;
+    
+    }
+    
+    .cards__item{
+        display: flex;
+        flex-direction: column;
+        width: calc(16% - 4rem);
+        text-align: center;
+        align-items: center;
+        background-color: rgba(249, 249, 249, 0.8);
+        padding: 2rem 1rem;
+        gap: 10px;
+        border-radius: 24px;
+    }
+    
+    .cards__titulo{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: .5rem;
+    }
+    
+    .cards__texto{
+        font-size: 1.25rem;
+    }
+    
+    .cards__imagem{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 1rem;
+    }
+}
