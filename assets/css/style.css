@@ -1,6 +1,9 @@
+html{
+    scrollbar-width: none;
+}
+
 body{
     width: 100vw;
-    box-sizing: border-box;
 }
 
 .cabecalho {
@@ -14,5 +17,6 @@ body{
 @media screen and (max-width: 720px) {
     .cabecalho {
         padding: 1.2rem 2rem;
+        justify-content: center;
     }
 }

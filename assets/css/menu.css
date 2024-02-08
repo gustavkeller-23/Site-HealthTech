@@ -24,7 +24,7 @@
         gap: 0.3rem;
     }
     .menu__item{
-        margin-right: 1rem;
+        font-size: 1.4rem;
     }
     .menu__link{
         font-size: 1.1rem;
@@ -33,11 +33,12 @@
 
 @media screen and (max-width: 360px) {
     .menu__lista{
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
+        gap: 10px;
     }
     .menu__link{
-        white-space: nowrap;
-        font-size: 0.9rem;
+        font-size: 1.4rem;
     }
 }
