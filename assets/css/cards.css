@@ -74,42 +74,15 @@
 
 @media screen and (max-width: 360px) {
     .cards{
-        padding: 5rem 2rem; 
+        padding: 3rem 2rem; 
     }
     
     .cards__lista{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        row-gap: 4rem;
-    
+        row-gap: 2rem;
     }
     
     .cards__item{
-        display: flex;
-        flex-direction: column;
-        width: calc(16% - 4rem);
-        text-align: center;
-        align-items: center;
-        background-color: rgba(249, 249, 249, 0.8);
-        padding: 2rem 1rem;
-        gap: 10px;
-        border-radius: 24px;
-    }
-    
-    .cards__titulo{
-        font-size: 2rem;
-        font-weight: 700;
-        margin-bottom: .5rem;
-    }
-    
-    .cards__texto{
-        font-size: 1.25rem;
-    }
-    
-    .cards__imagem{
-        width: 100px;
-        height: 100px;
-        margin-bottom: 1rem;
+        width: calc(100% - 4rem);
+        padding: 1rem 1rem;
     }
 }

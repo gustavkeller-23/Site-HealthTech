@@ -26,6 +26,26 @@
     cursor: default;
 }
 
+.banner__btn{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #3788d4;
+    padding: 1.3rem 3rem;
+    border-radius: 16px;
+    color: #D9D9D9;
+    text-decoration: none;
+}
+.banner__btn:hover{
+    transition: .1s ease-in-out all;
+    background-color: #75b4ee;
+}
+.banner__btn:active{
+    background-color: #044a7f
+}
+
 @media (max-width: 720px) {
     .banner {
         text-align: center;
@@ -36,48 +56,24 @@
     }
     
     .banner__titulo{
-        position: absolute;
-        top: 28%;
+        width: 550px;
+        top: 32%;
         left: 20%;
-        font-size: 6rem;
+        font-size: 5.5rem;
         font-weight: 700;
-    }
-    
-    .banner__titulo--forte{
-        color: blue;
-    }
-    
-    .banner__titulo:hover{
-        cursor: default;
     } 
 }
 
 @media screen and (max-width: 360px) {
-    .banner {
-        background-color: #D9D9D9;
-        position: relative;
-    }
-    
     .banner__imagem{
-        background: url('../img/Idosos-na-praia.png') no-repeat center / cover;
-        width: 100vw;
-        height: 100vh;
+        height: calc(100vh - 130px);
     }
     
     .banner__titulo{
-        position: absolute;
-        top: 28%;
-        left: 50%;
-        width: 600px;
-        font-size: 6rem;
+        width: 300px;
+        top: 40%;
+        left: 10%;
+        font-size: 3rem;
         font-weight: 700;
-    }
-    
-    .banner__titulo--forte{
-        color: blue;
-    }
-    
-    .banner__titulo:hover{
-        cursor: default;
     }
 }

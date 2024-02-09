@@ -49,3 +49,30 @@
     border-radius: 5px;
     border: none;
 }
+
+@media screen and (max-width: 720px) {   
+    .rodape__form{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .rodape{
+        padding: 4rem 0;
+        gap: 2rem;
+    }
+    
+    .rodape__titulo{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    
+    .rodape__texto{
+        font-size: 1.2rem;
+        gap: 2rem;
+    }
+    
+    .rodape__form{
+        width: 60%;
+    }
+}
