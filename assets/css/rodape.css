@@ -50,13 +50,13 @@
     border: none;
 }
 
-@media screen and (max-width: 720px) {   
+@media screen and (max-width: 960px) {   
     .rodape__form{
         width: 50%;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 550px) {
     .rodape{
         padding: 4rem 0;
         gap: 2rem;
