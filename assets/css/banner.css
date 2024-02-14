@@ -19,7 +19,7 @@
 }
 
 .banner__titulo{
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 700;
 }
 
@@ -56,18 +56,18 @@
     }
     
     .banner__imagem{
-        height: calc(100vh - 200px);
+        height: 70vh;
     }
 
     .banner__texto{
         align-items: center;
-        top: 28%;
-        left: 20%;
-        width: 550px;
+        top: 25%;
+        left: 25%;
+        width: 500px;
     }
     
     .banner__titulo{
-        font-size: 5.5rem;
+        font-size: 4.5rem;
         font-weight: 700;
     } 
 }
@@ -80,10 +80,14 @@
     .banner__texto{
         align-items: center;
         position: absolute;
-        top: 28%;
+        top: 23%;
         left: 10%;
         width: 300px;
         gap: 20px;
+    }
+
+    .banner__btn{
+        width: 60%;
     }
 
     .banner__titulo{

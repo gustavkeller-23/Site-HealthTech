@@ -16,20 +16,20 @@
     width: calc(16% - 4rem);
     text-align: center;
     align-items: center;
-    background-color: rgba(249, 249, 249, 0.8);
+    background-color: rgba(234, 248, 250, 0.8);
     padding: 2rem 1rem;
     gap: 10px;
     border-radius: 24px;
 }
 
 .cards__titulo{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: .5rem;
 }
 
 .cards__texto{
-    font-size: 1.25rem;
+    font-size: 1.3rem;
 }
 
 .cards__imagem{
